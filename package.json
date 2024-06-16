@@ -1,0 +1,36 @@
+{
+  "name": "ecommerce_mysql",
+  "version": "1.0.0",
+  "description": "Ecommerce webiste with MVC",
+  "main": "src/routes/router.js",
+  "scripts": {
+    "node": "nodemon src/routes/router.js",
+    "database": "node src/database/populate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-flash": "^0.0.2",
+    "express-mysql-session": "^3.0.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.1.0",
+    "helmet": "^7.1.0",
+    "jquery": "^3.7.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.13",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "popper": "^1.0.1",
+    "pug": "^3.0.3"
+  }
+}
